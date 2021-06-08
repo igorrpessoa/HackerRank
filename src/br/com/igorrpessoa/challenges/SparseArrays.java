@@ -1,3 +1,5 @@
+package br.com.igorrpessoa.challenges;
+
 public class SparseArrays {
     // Complete the matchingStrings function below.
     static int[] matchingStrings(String[] strings, String[] queries) {

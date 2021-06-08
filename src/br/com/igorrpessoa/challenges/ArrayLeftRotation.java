@@ -1,3 +1,5 @@
+package br.com.igorrpessoa.challenges;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

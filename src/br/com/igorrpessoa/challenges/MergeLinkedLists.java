@@ -1,3 +1,5 @@
+package br.com.igorrpessoa.challenges;
+
 import java.io.*;
 import java.math.*;
 import java.security.*;

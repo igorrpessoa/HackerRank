@@ -1,3 +1,5 @@
+package br.com.igorrpessoa.challenges;
+
 public class ReverseArrays {
     // Complete the reverseArray function below.
     static int[] reverseArray(int[] a) {

@@ -1,3 +1,5 @@
+package br.com.igorrpessoa.challenges;
+
 public class TwoDArrayDS {
     // Complete the hourglassSum function below.
     static int hourglassSum(int[][] arr) {
