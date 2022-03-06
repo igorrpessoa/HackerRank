@@ -1,5 +1,6 @@
 package br.com.igorrpessoa.main;
 
+import br.com.igorrpessoa.challenges.GreedyFlorist;
 import br.com.igorrpessoa.challenges.MaxArraySum;
 import br.com.igorrpessoa.challenges.MinimumSwaps;
 
@@ -10,9 +11,9 @@ import java.io.InputStreamReader;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        int [] list = {3, 5, -7, 8, 10};
+        int [] list = {1, 3, 5, 7, 9};
         list = readData();
-        System.out.println(MaxArraySum.maxSubsetSum(list));
+        System.out.println(GreedyFlorist.getMinimumCost(3, list));
     }
 
     private static String readFromInputStream(InputStream inputStream)
@@ -29,7 +30,7 @@ public class Main {
 
     public static int[] readData() throws IOException {
         ClassLoader classLoader = Main.class.getClassLoader();
-        InputStream inputStream = classLoader.getResourceAsStream("resources\\MaxArraySum.testcase1.txt");
+        InputStream inputStream = classLoader.getResourceAsStream("resources\\GreedyFlorist.testcase1.txt");
         String data = readFromInputStream(inputStream);
         data = data.substring(0, data.length()-1);
         String[] stringArray = data.split(" ");
